@@ -1,11 +1,10 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
-root = document.getElementById("root");
+rootEl = document.getElementById("root");
 
 const page = (
     <div>
-        {/* <img src="./react-logo.png"></img> */}
         <h1>Interesting facts about React</h1>
         <ul>
             <li>First relaeased in 2013</li>
@@ -14,4 +13,4 @@ const page = (
     </div>
 )
 
-ReactDOM.render(page, root);
+ReactDOM.render(page, rootEl);
